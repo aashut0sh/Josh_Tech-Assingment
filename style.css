@@ -1,18 +1,11 @@
 /* Default CSS Settings */
-*,
-*::after,
-*::before {
+*{
   font-size: 62.5%;
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
 }
-
-:root {
-  box-sizing: inherit;
-}
-
 body {
   box-sizing: border-box;
   font-size: 7rem;
@@ -111,6 +104,9 @@ body::-webkit-scrollbar{
   background-color: silver;
   margin-right: 0.5rem;
 }
+.tns-liveregion {
+	display: none;
+}
 
 .tns-outer > button[data-action="stop"]{
   display: none ;
@@ -133,7 +129,7 @@ body::-webkit-scrollbar{
   align-items: baseline;
   position: absolute;
   top: 2rem;
-  right: 28%;
+  right: 27%;
   z-index: 1000;
 }
 
